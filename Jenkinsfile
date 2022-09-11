@@ -6,7 +6,6 @@ pipeline {
         sh '''
           uname 
           uname -r
-          ros2 --help
         '''
       }
     }
